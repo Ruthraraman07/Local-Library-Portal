@@ -251,6 +251,11 @@ If you'd like to contribute to this project, please follow these steps:
 ![Screenshot 2025-06-11 120924](https://github.com/user-attachments/assets/890336ed-44da-4e30-82b7-86fddb65a914)
 ![Screenshot 2025-06-11 120949](https://github.com/user-attachments/assets/0d9b137b-c325-444d-8da3-1b72846bf927)
 ![Screenshot 2025-06-11 121004](https://github.com/user-attachments/assets/228ed190-05a6-45ee-b885-4225e7671f94)
+![Screenshot 2025-06-11 124853](https://github.com/user-attachments/assets/adafaa9d-79eb-4000-ad12-b6dcd61daad0)
+![Screenshot 2025-06-11 125022](https://github.com/user-attachments/assets/54d24b35-996d-455d-aabc-fb80d51199b2)
+
+
+
 
 1. Navigate to the `frontend` directory.
 2. Install dependencies:
