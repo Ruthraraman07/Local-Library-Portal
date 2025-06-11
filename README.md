@@ -33,6 +33,14 @@ This project is a Book Library web application consisting of a frontend and back
    ```
 
 ### Frontend Setup
+![Screenshot 2025-06-11 120524](https://github.com/user-attachments/assets/a4eda84f-0a72-4be8-9c20-3f59babfafed)
+![Screenshot 2025-06-11 120744](https://github.com/user-attachments/assets/83c9d6cb-08be-42b7-ab9a-71f98e0d4f4e)
+![Screenshot 2025-06-11 120806](https://github.com/user-attachments/assets/93fd8c9b-b3d9-4615-8685-c64f29d9da3e)
+![Screenshot 2025-06-11 120911](https://github.com/user-attachments/assets/a9eb8c9f-5fcf-42fb-ae54-b0fdbdd13a43)
+![Screenshot 2025-06-11 120924](https://github.com/user-attachments/assets/890336ed-44da-4e30-82b7-86fddb65a914)
+![Screenshot 2025-06-11 120949](https://github.com/user-attachments/assets/0d9b137b-c325-444d-8da3-1b72846bf927)
+![Screenshot 2025-06-11 121004](https://github.com/user-attachments/assets/228ed190-05a6-45ee-b885-4225e7671f94)
+
 1. Navigate to the `frontend` directory.
 2. Install dependencies:
    ```
