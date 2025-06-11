@@ -1,0 +1,175 @@
+:root {
+--navbar-height: 120px;
+--navbar-gap: 20px;
+}
+
+.navbar {
+position: fixed;
+top: 0; 
+width: 100%; 
+background-color: rgba(10, 2, 41, 0.9); 
+height: var(--navbar-height);
+z-index: 10; 
+display: flex; 
+align-items: center; 
+padding-left: 20px; 
+justify-content: space-between; 
+}
+
+.filter-container {
+display: flex;
+align-items: center; 
+padding-right: 50px;
+}
+
+.app-background {
+background-size: cover;
+background-position: center;
+min-height: 100vh;
+position: relative; 
+}
+
+.app-container {
+padding: 20px;
+max-width: 960px;
+margin: 0 auto;
+padding-top: calc(var(--navbar-height) + var(--navbar-gap)); 
+min-height: 100vh;
+}
+
+.book-list {
+display: grid;
+grid-template-columns: repeat(4, 1fr); 
+gap: 55px; 
+margin-top: 20px;
+justify-content: center; 
+padding-top: 10px;
+transition: margin-top 0.3s ease; 
+}
+
+.book-list.filtered {
+margin-top: calc(var(--navbar-height) + var(--navbar-gap));
+}
+
+@media (max-width: 1200px) {
+.book-list {
+grid-template-columns: repeat(3, 1fr); 
+}
+}
+
+@media (max-width: 900px) {
+.book-list {
+grid-template-columns: repeat(2, 1fr); 
+}
+}
+
+@media (max-width: 600px) {
+.book-list {
+grid-template-columns: 1fr; 
+}
+}
+
+.filter-group {
+margin-top: 20px;
+}
+
+.book-form-card {
+margin-bottom: 20px;
+width: 800px;
+}
+
+.book-form {
+font-weight: bold;
+}
+
+.book-form input[type="file"] {
+margin-top: 8px;
+}
+
+.book-item {
+height: 560px;
+width: 300px;
+margin: 1rem auto;
+padding: 1rem;
+text-align: center;
+}
+
+.book-cover {
+width: 180px;
+height: 200px;
+object-fit: cover;
+border-radius: 8px;
+margin-bottom: 0.1rem;
+}
+
+.book-details {
+flex: 1;
+background-color: #f2f0d6;
+padding: 0.4rem;
+}
+
+.book-actions {
+margin-top: 10px;
+}
+
+.shiny-text {
+font-size: 3.5rem;
+font-weight: bold;
+background: linear-gradient(
+90deg,
+#0a0f5c,
+#eff8f8,
+#0a0f5c,
+#eff8f8
+); 
+background-size: 300% 100%;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: shinyMove 30s linear infinite;
+text-align: center;
+}
+
+@keyframes shinyMove {
+0% {
+background-position: 0% 50%;
+}
+50% {
+background-position: 100% 50%;
+}
+100% {
+background-position: 0% 50%;
+}
+}
+
+.filter-container {
+display: flex; 
+align-items: center; 
+}
+
+.cancel-button {
+margin-left: 10px;  
+background-color: #fffafa; 
+color: white; 
+border: none; 
+border-radius: 4px;
+padding: 5px 10px; 
+cursor: pointer;  
+}
+
+.cancel-button:hover {
+background-color: #ff1a1a; 
+}
+
+/* Additional styles for the particles background /
+.particles-container {
+position: absolute; / Position the particles absolutely /
+top: 0; / Align to the top /
+left: 0; / Align to the left /
+width: 100%; / Full width /
+height: 100%; / Full height /
+z-index: 0; / Ensure particles are behind the content */
+
+
+.logout-button {
+margin-left: 15px; 
+}
